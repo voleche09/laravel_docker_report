@@ -12,7 +12,7 @@ File Encoding         : 65001
 
 Date: 2020-04-23 18:27:23
 */
-USE `reports`
+USE `reportdb`;
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `individuals`
