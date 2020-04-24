@@ -20,8 +20,9 @@ services:
       - laravel
 
   mysql:
-    image: mysql:latest
+    image: mysql:5.7
     container_name: mysql
+    command: mysqld --sql_mode=""
     restart: unless-stopped
     tty: true
     ports:
