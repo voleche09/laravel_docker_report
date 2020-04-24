@@ -50,27 +50,26 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 * docker
-```sh
-npm install npm@latest -g
-```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/voleche09/laravel_docker_report.git
 ```
-3. Install NPM packages
+2. CD into the directory and run docker-compose
 ```sh
-npm install
+docker-compose up --build
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
+3. Install laravel dependencies
+```sh
+docker-compose run --rm composer install
 ```
-
-
+4. Install node dependencies and compile the resources
+```sh
+docker-compose run --rm npm install
+docker-compose run --rm npm run dev
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
