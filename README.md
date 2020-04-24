@@ -3,14 +3,12 @@
 
   <p align="center">
     This is a simple sacco report generator done in Laravel and Vue
-   
+   <br />
+    <a href="#><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://104.236.56.196:3030/">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="http://127.0.0.1:3030/">View Demo</a>
+    
   </p>
 </p>
 
