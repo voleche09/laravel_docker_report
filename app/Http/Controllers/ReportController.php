@@ -29,6 +29,8 @@ class ReportController extends Controller
             $result[$i]['id'] = $i + 1;
             $result[$i]['country'] = $sacco->country;
             $result[$i]['saccos'] = $sacco->count;
+            $result[$i]['deposit'] = 0; #If sacco has no deposit set deposit to 0
+            $result[$i]['withdrawal'] = 0; # if sacco has no withdraw set deposit to 0
             foreach ($transactions as $transaction) {
                 if ($transaction->country == $sacco->country and $transaction->type == 'deposit') {
                     $result[$i]['deposit'] = $transaction->amount;

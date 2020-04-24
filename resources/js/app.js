@@ -20,6 +20,9 @@ window.Vue = require("vue");
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 Vue.component("navbar", require("./components/Navbar.vue").default);
 Vue.component("report", require("./components/Report.vue").default);
+import vueNumeralFilterInstaller from "vue-numeral-filter";
+
+Vue.use(vueNumeralFilterInstaller, { locale: "en-gb" });
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
