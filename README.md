@@ -33,7 +33,7 @@
 
 This is a simple laravel application that has been dockerized. The front end is done in vue js and boostrap for css. The application aggregates sacco information from an sql file found in init and displays information in a table. It uses the basic laravel api and in future will include resources.
 
-A list of resources that I find helpful are listed in the acknowledgements.
+A list of resources that I found helpful are listed in the acknowledgements.
 
 ### Built With
 The application has been built in
